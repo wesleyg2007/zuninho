@@ -1,0 +1,45 @@
+:root{
+    --branco-principal: #7A51EE;
+--cinza-secundario: #000;
+ --botao-azul: #FFFFFF;
+     --cor-de-fundo: #00030C;
+}
+
+body{
+     background-color: var(--cor-de-fundo);
+     color: var(--branco-principal);
+     color: var (--branco-principal);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+ background-image:url("img/NOMEdaIMAGEM.png");
+ background-repeat: no-repeat;
+ background-size: contain;
+}
+
+.container{
+height: 100v;
+display: grid; esse comando separa os elementos ja existentes no site'''
+grid-template-columns: 50% 50%; divide as colunas do site no tamanho que voce definir, nesse caso 50% 50%
+}
+
+.container_botao{
+background-color: var(--botao-azul);'coloque aqui a variavel da cor do seu botão'
+border-radius: 5px;'serve para arredondar as borda do botao'
+padding:1em; 'altera o tamanho do botão'
+color: var(--branco-principal); 'alterao a cor da escrita'
+diplay: block;    
+}
+
+.botao_segundario{
+    brackground-color: transparent; define a cor do botao 
+    border: 2px solid var(--branco-principal); configura a borda do boto
+}
+
+
+
