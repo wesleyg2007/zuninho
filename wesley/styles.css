@@ -1,5 +1,5 @@
 :root{
-    --branco-principal: #7A51EE;
+    --vermelho-principal: #ff0000;
 --cinza-secundario: #000;
  --botao-azul: #FFFFFF;
      --cor-de-fundo: #00030C;
@@ -8,7 +8,6 @@
 body{
      background-color: var(--cor-de-fundo);
      color: var(--branco-principal);
-     color: var (--branco-principal);
 }
 
 * {
@@ -17,32 +16,32 @@ body{
 }
 
 .principal{
- background-image:url("img/NOMEdaIMAGEM.png");
+ background-image:url("img/NOMEdaIMAGE coloque aqui seu tituloM.png");
  background-repeat: no-repeat;
  background-size: contain;
-align-items: center; este comando vai deixar tudo na seção no centro
-text-align: center; alinha todo texto da imagen
+align-items: center;
+text-align: center;
 }
 
 .container{
 height: 100v;
-display: grid; esse comando separa os elementos ja existentes no site'''
-grid-template-columns: 50% 50%; divide as colunas do site no tamanho que voce definir, nesse caso 50% 50%
+display: grid;
+grid-template-columns: 50% 50%;
 }
 
 .container_botao{
-background-color: var(--botao-azul);'coloque aqui a variavel da cor do seu botão'
-border-radius: 5px;'serve para arredondar as borda do botao'
-padding:1em; 'altera o tamanho do botão'
-color: var(--branco-principal); 'alterao a cor da escrita'
+background-color: var(--botao-azul);
+border-radius: 5px;
+padding:1em;
+color: var(--branco-principal);
 diplay: block;    
 textdecoration: nome;
 margin-bottom: 1em; 
 }
 
 .botao_segundario{
-    brackground-color: transparent; define a cor do botao 
-    border: 2px solid var(--branco-principal); configura a borda do boto
+    brackground-color: transparent;
+    border: 2px solid var(--branco-principal);
 }
 
 .container__aviso{
@@ -60,15 +59,15 @@ margin-bottom: 1em;
 }
 
 .container__caixa{
-    margin: 0 6em; o primeiro valor e a margem superior  e inferior;o segundo valor e a margem direita e esquerda
+    margin: 0 6em;
 }
-
-.segundario__imagen{
-    width: 80%; 'cloque a porcentagem que asua imagen vai ocupar a seção'
+ 
+segundario__imagen{
+    width: 80%;
 }
-.ssegundario{ 'cie a tag com nome da clase da segnda seção'
+.ssegundario{
     align-items: center;
-    margin: 0 10em; teste valores pra margen, ate voce encontrar mas adequada
+    margin: 0 10em;
 }
 
 .descriçaõ__titulo{
